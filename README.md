@@ -14,7 +14,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ~~~
 4. Insert your OpenAI API and Unstructured API Key in the .env file located at the root directory
-5. Insert your desired .pdf files into a new folder and change the name of the variable file_path in agent_pool.py to the name of the folder
+5. Insert your desired .pdf files into a *new folder* and change the name of the variable **file_path** in **agent_pool.py** to the name of the folder
 6. Run the Streamlit application locally:
 ~~~
 streamlit run app.py
